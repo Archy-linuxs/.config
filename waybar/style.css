@@ -2,11 +2,13 @@
 * {
     font-family: "Fira Sans Semibold", "Font Awesome 6 Free", FontAwesome, Roboto, Helvetica, Arial, sans-serif;
     font-size: 14px;  /* Slightly smaller font size */
-    font-weight: 900;
     margin: 0;
     padding: 0;
     transition-property: background-color;
     transition-duration: 0.5s;
+    border: none;
+    border-radius: 7px;
+    opacity: 0.9;
 }
 
 /* Reset all styles */
@@ -14,7 +16,7 @@
     border: none;
     border-radius: 3px;
     min-height: 0;
-    margin: 0.2em 0.3em 0.2em 0.3em;
+    margin: 0.1em 0.3em 0.1em 0.3em;
 }
 
 /* The whole bar */
@@ -36,14 +38,14 @@ window#waybar.hidden {
     margin: 3px 5px;    /* Reduced margin slightly */
     border-radius: 6px;
     color: @foreground;
-    background-color: #111827;
     transition: all 0.3s ease-in-out;
     font-size: 13px;  /* Slightly smaller font size */
+    background-color: #303233;
 }
 
 #workspaces button.active {
-    color: @foreground;
-    background: #025939;
+    color: #12253d;
+    background: #8a9199;
 }
 
 #workspaces button:hover {
@@ -55,7 +57,7 @@ window#waybar.hidden {
 }
 
 #workspaces {
-    background-color: #111827;
+    background-color: transparent;
     border-radius: 14px;
     padding: 3px 6px;  /* Adjusted padding to reduce height */
 }

@@ -19,28 +19,29 @@
         //"custom/rofi",
         "hyprland/workspaces",
         //"hyprland/submap",
-        "temperature",
+        //"temperature",
         //"idle_inhibitor",
         //"mpd"
         "custom/spotify"
     ],
     "modules-center": [
         //"hyprland/window"
-        "clock#date",
+        //"clock#date",
         "custom/weather"
         //"custom/gammastep"
     ],
     "modules-right": [
         "backlight",
-        "custom/storage",
+        //"custom/storage",
         "memory",
         "cpu",
         "battery",
         //"pulseaudio",
         "wireplumber",
-        "custom/screenshot_t",
+        //"custom/screenshot_t",
         "tray",
-        "custom/power"
+        //"custom/power",
+        "clock#date",
     ],
 
 
