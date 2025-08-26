@@ -25,9 +25,8 @@
         "custom/spotify"
     ],
     "modules-center": [
-        //"hyprland/window"
+      "hyprland/window"
         //"clock#date",
-        "custom/weather"
         //"custom/gammastep"
     ],
     "modules-right": [
@@ -37,10 +36,12 @@
         "cpu",
         "battery",
         //"pulseaudio",
-        "wireplumber",
+        //"wireplumber",
         //"custom/screenshot_t",
         "tray",
         //"custom/power",
+        
+        "custom/weather",
         "clock#date",
     ],
 

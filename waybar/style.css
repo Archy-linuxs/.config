@@ -44,7 +44,7 @@ window#waybar.hidden {
 }
 
 #workspaces button.active {
-    color: #12253d;
+    color:  #08e8de;
     background: #8a9199;
 }
 
@@ -126,13 +126,13 @@ window#waybar.hidden {
 }
 
 #cpu {
-    color: #fb958b;
+    color: #00ffff;
     background-color: #111827;
     padding: 6px;
 }
 
 #memory {
-    color: #ebcb8b;
+    color: #00ffff;
     background-color: #111827;
     padding: 6px;
 }
@@ -198,7 +198,7 @@ window#waybar.hidden {
 }
 
 #pulseaudio {
-    color: #7d9bba;
+    color: #00ffff;
 }
 
 #backlight {
@@ -216,7 +216,7 @@ window#waybar.hidden {
 #battery.charging,
 #battery.full,
 #battery.plugged {
-    color: #26a65b;
+    color: #00ffff;
 }
 
 @keyframes blink {
